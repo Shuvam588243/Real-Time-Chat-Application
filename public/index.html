@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+		<title>Chatter App</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1><span class="iconify" data-icon="bi:chat-right-dots-fill" data-inline="false"></span> Chatter</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html" action="/chat">
+					<div class="form-control">
+						<label for="username" class="label_main">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter username..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room" class="label_main">Room</label>
+						<select name="room" id="room">
+							<!-- <option value="None">None</option> -->
+							<option value="JavaScript">JavaScript</option>
+							<option value="Python">Python</option>
+							<option value="PHP">PHP</option>
+							<option value="C#">C#</option>
+							<option value="Ruby">Ruby</option>
+							<option value="Java">Java</option>
+						</select>
+					</div>
+					<!-- <div class="form-control">
+						<label for="custom_room" class="label_main">Create Room ID</label>
+						<input
+							type="text"
+							name="custom_room_id"
+							id="custom_room_id"
+							placeholder="Enter Custom Room ID"
+						/>
+					</div>
+					<div class="form-control">
+						<label for="custom_room" class="label_main">Create Room Name</label>
+						<input
+							type="text"
+							name="custom_room_name"
+							id="custom_room_name"
+							placeholder="Enter Custom Room Name"
+						/>
+					</div> -->
+					<button type="submit" class="btn">Join Chat</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Shubham\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express socket.io moment.js ejs
+
+PATH: 
+  C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Python39;C:\Ruby22-x64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Shubham\AppData\Roaming\npm;%PyCharm Community Edition%;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\Shubham\AppData\Local\Programs\Microsoft VS Code\bin;%PyCharm%;C:\Program Files\heroku\bin;C:\Users\Shubham\AppData\Local\hyper\app-3.0.2\resources\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/moment.js: Not found
+      at Request.params.callback [as _callback] (C:\Users\Shubham\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\Shubham\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\Shubham\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\Shubham\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "chatter",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
